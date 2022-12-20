@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/*------------------------cabecera-------------------*/
+.nav_arriba {
+  background-color: #1cd1b0;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.nav_abajo {
+  background-color: #00669f;
+  padding: 20px;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+/*---------------------parte principal-------------*/
+/*----------------------batman--------------------*/
+
+body {
+  background-color: wheat;
+}
+section {
+  margin-bottom: 60px;
+}
+.super-top {
+  background-position: center;
+  height: 200px;
+  width: 400px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.backgroundBatman {
+  background-image: url("../img/bg-batman.jpg");
+  background-size: cover;
+}
+
+.backgroundMaravilla {
+  background-image: url("../img/bg-wonderw.jpg");
+  background-size: cover;
+}
+
+.backgroundSuperman {
+  background-image: url("../img/bg-superman.jpg");
+  background-size: cover;
+}
+
+.corazon {
+  position: absolute;
+  width: 30px;
+  top: 15px;
+  left: 15px;
+}
+
+.batman-foto {
+  position: absolute;
+  background-image: url("../img/batman.jpg");
+  background-position: center;
+  height: 125px;
+  width: 125px;
+  top: 140px;
+  left: 140px;
+  border-radius: 100%;
+}
+
+.maravilla-foto {
+  position: absolute;
+  background-image: url("../img/wonderw.jpg");
+  background-position: center;
+  height: 125px;
+  width: 125px;
+  top: 140px;
+  left: 140px;
+  border-radius: 100%;
+}
+
+.superman-foto {
+  position: absolute;
+  background-image: url("../img/superman.jpg");
+  background-position: center;
+  height: 125px;
+  width: 125px;
+  top: 140px;
+  left: 140px;
+  border-radius: 100%;
+}
+
+.super-bottom {
+  height: 400px;
+  width: 400px;
+  margin: 0 auto;
+  background-color: #f3f3f3;
+  padding: 80px 20px;
+  text-align: center;
+  box-shadow: 0px 5px 2.5px rgba(0, 0, 0, 0.25);
+}
+
+.super-bottom h2 {
+  marging: 0 auto;
+}
+
+.super-bottom p {
+  padding: 20px 0px;
+  text-align: left;
+}
+
+.super-bottom button {
+  background: #00669f;
+  color: white;
+  width: 140px;
+  height: 50px;
+  border: solid 1px orangered;
+}
+
+.botonMas {
+  position: absolute;
+  left: 90%;
+  background-color: #00669f;
+  color: white;
+  font-size: 50px;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: solid white 2px;
+}
+/*----------- piecera---------------------------*/
+
+footer {
+  background-color: #00669f;
+  width: 100%;
+  height: 60px;
+  border: solid 2px green;
+  color: white;
+  box-shadow: 0px 5px 2.5px rgba(0, 0, 0, 0.25);
+  position: relative;
+  text-align: center;
+}
+
+.github {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+.copyrigth {
+  display: inline-block;
+  margin-top: 20px;
+}
+.github img {
+  height: 30px;
+}
